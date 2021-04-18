@@ -13,7 +13,7 @@ const HomePageView: React.FC = () => {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className={styles.Link}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
