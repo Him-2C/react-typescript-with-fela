@@ -20,5 +20,12 @@ module.exports = {
     '@typescript-eslint',
   ],
   'rules': {
+    '@typescript-eslint/no-unused-vars': [2, {
+      'argsIgnorePattern': '^_',
+      'caughtErrorsIgnorePattern': '^_',
+    }],
+    'no-unused-vars': 0,
+    'react/prop-types': 0,
+    'max-len': 0,
   },
 };
